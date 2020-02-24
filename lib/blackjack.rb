@@ -44,7 +44,7 @@ def invalid_command
   puts "Please enter a valid command"
 end
 
-def invalid_prompt
+def invalid_and_prompt
   puts "Please enter a valid command"
   prompt_user
   get_user_input
