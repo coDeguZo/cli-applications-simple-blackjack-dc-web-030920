@@ -36,12 +36,13 @@ def hit?(current_total_num)
   elsif input == 's'
     current_total_num
   else
-    invalid_command && prompt_user
+    invalid_command
   end
 end
 
 def invalid_command
   puts "Please enter a valid command"
+  prompt_user
 end
 
 #####################################################
