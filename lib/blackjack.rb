@@ -47,6 +47,9 @@ def invalid_command
   puts "Please enter a valid command"
 end
 
+def invalid_prompt
+  puts
+
 #####################################################
 # get every test to pass before coding runner below #
 #####################################################
