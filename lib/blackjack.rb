@@ -54,6 +54,7 @@ def runner
   welcome
   card_total = initial_round
   unitl card_total > 21
+    card_total = hit?(current_total_num)
     
 end
     
