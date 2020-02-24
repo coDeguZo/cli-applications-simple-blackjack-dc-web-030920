@@ -52,7 +52,8 @@ end
 
 def runner
   welcome
-  current_total = initial_round
-  unitl 
+  card_total = initial_round
+  unitl card_total > 21
+    
 end
     
