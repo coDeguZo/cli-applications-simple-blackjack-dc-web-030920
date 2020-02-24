@@ -36,10 +36,7 @@ def hit?(current_total_num)
   elsif input == 's'
     current_total_num
   elsif input != 's' || 'h'
-    puts "Please enter a valid command"
-    prompt_user
-  else
-    prompt_user
+    invalid_prompt
   end
 end
 
@@ -48,7 +45,10 @@ def invalid_command
 end
 
 def invalid_prompt
-  puts
+  puts "Please enter a valid command"
+  prompt_user
+  get_user_input
+end
 
 #####################################################
 # get every test to pass before coding runner below #
